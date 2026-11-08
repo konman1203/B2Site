@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B2 – Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand">B2</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link active">Αρχική Σελίδα</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <article class="card">
+        <header class="card-header">
+          <h1>Διαγωνίσματα</h1>
+          <p class="app-name"></p>
+        </header>
+
+        <div class="app-list">
+          <!-- Copy this block to add a new app -->
+          <section class="app-item">
+            <div class="app-icon">A</div>
+            <div class="app-info">
+              <h2>Αρχαία</h2>
+              <p>Στις 13/11/26.</p>
+              <div class="app-links">
+                <a href="#">Ύλη</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="app-item">
+            <div class="app-icon">A</div>
+            <div class="app-info">
+              <h2>Αρχαία</h2>
+              <p>Στις 13/11/26.</p>
+              <div class="app-links">
+                <a href="#">Ύλη</a>
+              </div>
+            </div>
+          </section>
+
+          <header class="card-header">
+            <h1>Πρόγραμμα</h1>
+            <p class="app-name"></p>
+          </header>
+        </div>
+
+        <section class="schedule-section">
+          <div class="schedule-card">
+            <div class="schedule-header">
+              <div class="schedule-heading">
+                <span class="schedule-icon">🗓️</span>
+                <div>
+                  <h2>Το Πρόγραμμα Αυτής της Εβδομάδας</h2>
+                  <p></p>
+                </div>
+              </div>
+
+              <span class="schedule-badge">Απο 9/10/26</span>
+            </div>
+
+            <div class="schedule-toolbar">
+              <span>📄 schedule.pdf</span>
+
+              <div class="schedule-actions">
+                <a
+                  href="assets/schedule.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="open-btn"
+                >
+                  ↗ Άνοιγμα
+                </a>
+
+                <a
+                  href="assets/schedule.pdf"
+                  download="Class-Schedule.pdf"
+                  class="download-btn"
+                >
+                  ↓ Κατέβασε
+                </a>
+              </div>
+            </div>
+
+            <div class="pdf-container">
+              <iframe
+                src="assets/schedule.pdf#toolbar=0"
+                title="Class Schedule PDF"
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+
+            <div class="schedule-footer">
+              <span>📌 Πάντα ελέγξτε για ενημερώσεις στο πρόγραμμα.</span>
+            </div>
+          </div>
+        </section>
+
+        <footer class="contact"></footer>
+      </article>
+    </main>
+  </body>
+</html>
